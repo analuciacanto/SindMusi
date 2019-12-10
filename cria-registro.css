@@ -1,0 +1,70 @@
+
+select{
+	height: 25px;
+}
+
+input{
+	height: 25px;
+}
+
+#titulo{
+	width: 500px;
+	height: 25px;
+}
+
+.midia{
+	width: 600px;
+	height: auto;
+	border: 1px solid #000;
+}
+.preview{
+	width: 100px;
+	height: 25px;
+	border: 1px solid #000;
+	margin: 10px 0px 10px 0px;
+	cursor: pointer;
+}
+
+#lista_de_midias{
+	width: 100%;
+	height: auto;
+	border: 1px solid #000;
+	text-align: left;
+	vertical-align: text-top;
+}
+
+#limparMidias{
+	width: 150px;
+	height: 30px;
+	margin-top: 3px;
+	padding-top: 5px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #00C;
+}
+
+/* ----            Edita Registro             ---- */
+
+.oldInfo{
+	margin: 12px 0px 12px 0px;
+	text-decoration: underline;
+}
+
+.midiasDiv{
+	padding: 10px 0px 10px 0px;
+	border: 1px solid #000;
+	width: 95%;
+	height: 200px;
+	overflow: auto;
+}
+
+.applicLink{
+	height: 30px;
+	padding: 5px;
+	border-radius: 5px;
+	background: #A00;
+	color: #fff;
+	font-size: 20px;
+	text-decoration: none;
+}

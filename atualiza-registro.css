@@ -1,0 +1,151 @@
+
+select{
+	height: 25px;
+}
+
+#searchText{
+	width: 500px;
+	height: 25px;
+	margin-top: 10px;
+}
+
+#backgroundConfirmDeletion{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	background: rgba( 0, 0, 0, 0.5 );
+	width: 100%;
+	height: 100%;
+}
+
+#confirmDeletion{
+	position: fixed;
+	left: 30px;
+	top: 30px;
+	background: #fff;
+	width: 500px;
+	height: 150px;
+	border: 2px solid #000;
+	border-radius: 5px;
+	text-align: center;
+}
+
+#confirm{
+	float: left;
+	margin-left: 100px;
+	margin-top: 40px;
+	padding-top: 5px;
+	width: 100px;
+	height: 30px;
+	cursor: pointer;
+	border: 2px solid #C00;
+	border-radius: 5px;
+	color: #000;
+}
+#confirm:hover{
+	background: #C00;
+	color: #fff;
+}
+
+#cancel{
+	float: right;
+	margin-right: 100px;
+	margin-top: 40px;
+	padding-top: 5px;
+	width: 100px;
+	height: 30px;
+	cursor: pointer;
+	border: 2px solid #00C;
+	border-radius: 5px;
+	color: #000;
+}
+#cancel:hover{
+	background: #00C;
+	color: #fff;
+}
+
+.indiceRegistro{
+	float: left;
+	margin: -8px 0px 0px 2px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: #00C;
+	color: #fff;
+	font-size: 22px;
+}
+
+.regDiv{
+	padding-top: 10px;
+	width: 800px;
+	border: 2px solid yellow;
+	border-radius: 5px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.midiasDiv{
+	padding: 10px;	
+}
+
+.applicLink{
+	height: 30px;
+	padding: 5px;
+	border-radius: 5px;
+	background: #A00;
+	color: #fff;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.deletaRegistro{
+	float: left;
+	margin: -5px 0px 0px 150px;
+	padding-top: 8px;
+	width: 100px;
+	height: 30px;
+	cursor: pointer;
+	border: 2px solid #C00;
+	border-radius: 5px;
+	color: #000;
+}
+.deletaRegistro:hover{
+	background: #C00;
+	color: #fff;
+}
+
+.editaRegistro{
+	float: right;
+	margin: -5px 150px 0px 0px;
+	padding-top: 8px;
+	width: 100px;
+	height: 30px;
+	cursor: pointer;
+	border: 2px solid #00C;
+	border-radius: 5px;
+	color: #000;
+}
+.editaRegistro:hover{
+	background: #00C;
+	color: #fff;
+}
+
+.verMais{
+	float: right;
+	--margin-top: 10px;
+	margin: -5px 300px 0px 0px;
+	padding-top: 8px;
+	width: 200px;
+	height: 30px;
+	cursor: pointer;
+	border: 2px solid #00C;
+	border-radius: 5px;
+	color: #000;
+	font-size: 22px;
+}
+.verMais:hover{
+	background: #00C;
+	color: #fff;
+}
+
+

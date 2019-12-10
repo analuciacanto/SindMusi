@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  main {
+    flex: 1 0 auto;
+  }
+  
+  .header-extended{
+      background-color: #003882;
+      color: white;
+      margin-top: 1px;
+      padding-top: 50px;  
+      padding-bottom: 40px;
+  }
+ 
+  footer {
+    background-color: #003882;
+    padding-top: 20px;
+    color: white;
+  }
+ 
+  footer ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  footer a {
+    text-decoration: none;
+    color: white;
+  }
+  footer a:hover {
+      color: white;
+      text-decoration: none;
+  }
+  .footer-copyright {
+    background-color: #003882 ;
+    padding: 30px 0 10px 0;
+    font-size: small;
+    align-content: flex-start;
+  }
+  
